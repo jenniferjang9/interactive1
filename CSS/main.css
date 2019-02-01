@@ -12,3 +12,10 @@ body {
 	color: white;
   background: #E4DBD6;
 }
+
+#container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
