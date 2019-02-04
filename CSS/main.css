@@ -1,0 +1,26 @@
+
+/* reset styles */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* begin styles */
+
+body {
+	color: white;
+  background: #E4DBD6;
+}
+
+#container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+#container {
+  font-family: Helvetica; font-size: 20px; font-style: italic; font-variant: normal; font-weight: 700; line-height: 22px; }
+
+}
