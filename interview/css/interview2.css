@@ -19,20 +19,23 @@ h1 {
   margin-bottom: 2em;
 }
 
-  #toc {
-      position: fixed;
-      top: 1em;
-      left: .001em;
-      /* a background color might help it be differentiated from the rest */
-      background: pink;
-      /* that means you'll have to change the color of the text */
-      color: pink;
-      /* some padding might make it look better */
-      padding: 1em;
-      /* maybe making the font size here smaller will help too */
-      font-size: 0.7em;
-      font-family: Arial;
-    }
+#container {
+  max-width: 650px;
+  margin: 0 auto;
+  /* I put "max-width" rather than "width" because
+     if the screen width is less than 650px, it will shrink accordingly. */
+}
+
+h2 {
+  /* here I'm making my section headers very clear with a white background.
+     added some padding and removed the default bold again, and
+     added some top margin */
+  background: pink;
+  padding: 0.5em;
+  font-weight: normal;
+  color: pink;
+  margin-top: 2em;
+}
 
 
 #toc a:hover {
@@ -55,3 +58,4 @@ figcaption {
   font-size: 0.7em;
 
 }
+

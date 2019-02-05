@@ -23,7 +23,7 @@ body {
       top: 1em;
       left: .001em;
       /* a background color might help it be differentiated from the rest */
-      background: none;
+      background: pink;
       /* that means you'll have to change the color of the text */
       color: none;
       /* some padding might make it look better */
