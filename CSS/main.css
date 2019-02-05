@@ -8,9 +8,15 @@
 
 /* begin styles */
 
-body {
+#container {
 	color: black;
  background-image: url("images/mirrors.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 400px;
+ height: 400px;
+ border: 2px dashed #333;
+
 }
 
 #container {
