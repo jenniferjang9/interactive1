@@ -1,6 +1,6 @@
 
 body {
-  background: #white;
+  background: #pink;
   /* The above is called a hex code.
      There are two other ways to do colors in CSS: rgb and common names
      Find "Digital Color Meter" on your computer to explore more */
@@ -24,9 +24,9 @@ h1 {
       top: 1em;
       left: .001em;
       /* a background color might help it be differentiated from the rest */
-      background: none;
+      background: pink;
       /* that means you'll have to change the color of the text */
-      color: none;
+      color: pink;
       /* some padding might make it look better */
       padding: 1em;
       /* maybe making the font size here smaller will help too */
