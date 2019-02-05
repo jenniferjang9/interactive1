@@ -1,15 +1,16 @@
 
 body {
-  background: #587E20;
+  background: #FFE3D8;
   /* The above is called a hex code.
      There are two other ways to do colors in CSS: rgb and common names
      Find "Digital Color Meter" on your computer to explore more */
-  color: white;
+  color: orange;
   font-size: 22px;
 }
 
 #container {
   max-width: 650px;
+  margin: 0 auto;
   /* I put "max-width" rather than "width" because
      if the screen width is less than 650px, it will shrink accordingly. */
 }

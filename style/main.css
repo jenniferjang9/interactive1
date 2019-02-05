@@ -9,18 +9,28 @@
 /* begin styles */
 
 body {
-	color: white;
-  background: #E4DBD6;
+	color: #FF9676;
+  background: #FCF4EA;
+}
+
+body {
+  background-image: url("marble2.jpeg");
 }
 
 #container {
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 100px;
+  margin-left: 420px;
 }
 
 #container {
-  font-family: "Raleway Bold", sans-serif;
+ background-image: url("mirrors.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+#container {
+  font-family: "Raleway Bold", sans-serif; font-size: 20px;
 
 }
