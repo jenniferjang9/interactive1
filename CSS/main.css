@@ -9,6 +9,10 @@
 /* begin styles */
 
 body {
+  background-image: url("sky3.jpg");
+}
+
+body {
 	color: white;
   background: #E4DBD6;
 }
