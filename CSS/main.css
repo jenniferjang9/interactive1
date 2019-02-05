@@ -8,6 +8,7 @@
 
 /* begin styles */
 
+
 #container {
 	color: black;
  background-image: url("images/mirrors.jpg");
@@ -27,10 +28,16 @@
 }
 
 #container {
-  <span font-family: futura; font-size: 70px;>jennifer jang</span>
+  font-family: futura; font-size: 70px;
 
 }
 
 #container {
   max-width: 650px;
   }
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
