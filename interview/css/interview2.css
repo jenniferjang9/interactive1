@@ -1,4 +1,57 @@
 
 body {
-  background: pink;
+  background: #white;
+  /* The above is called a hex code.
+     There are two other ways to do colors in CSS: rgb and common names
+     Find "Digital Color Meter" on your computer to explore more */
+  color: black;
+  font-size: 22px;
+  font-family: Arial;
+  font-style: oblique;
+
+h1 {
+  /* here I'm making the title not bold (by default headings are always bold)
+     centered, larger, tighter leading, and with some bottom space or margin */
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.1;
+  margin-bottom: 2em;
+}
+
+  #toc {
+      position: fixed;
+      top: 1em;
+      left: .001em;
+      /* a background color might help it be differentiated from the rest */
+      background: none;
+      /* that means you'll have to change the color of the text */
+      color: none;
+      /* some padding might make it look better */
+      padding: 1em;
+      /* maybe making the font size here smaller will help too */
+      font-size: 0.7em;
+      font-family: Arial;
+    }
+
+
+#toc a:hover {
+  color: white;
+}
+
+
+#toc ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
+}
+
+figure {
+  margin: 0;
+}
+
+
+figcaption {
+  font-size: 0.7em;
+
 }
