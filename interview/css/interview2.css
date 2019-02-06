@@ -6,8 +6,9 @@ body {
      Find "Digital Color Meter" on your computer to explore more */
   color: black;
   font-size: 22px;
-  font-family: Arial;
+  font-family: Arial ;
   font-style: oblique;
+}
 
 #container {
   max-width: 650px;
@@ -16,25 +17,31 @@ body {
      if the screen width is less than 650px, it will shrink accordingly. */
 }
 
-h1 {
-  /* here I'm making the title not bold (by default headings are always bold)
-     centered, larger, tighter leading, and with some bottom space or margin */
-  font-weight: normal;
-  text-align: center;
-  font-size: 3em;
-  line-height: 1.1;
-  margin-bottom: 2em;
+
+
+    #toc {
+      position: fixed;
+      top: 1em;
+      left: .001em;
+      /* a background color might help it be differentiated from the rest */
+      background: #FFECF9;
+      /* that means you'll have to change the color of the text */
+      color: none;
+      /* some padding might make it look better */
+      padding: .09em;
+      /* maybe making the font size here smaller will help too */
+      font-size: 0.7em;
+      font-family: arial ;
+    }
+
+
+#toc a {
+  color: black;
+  text-decoration: none;
 }
 
-h2 {
-  /* here I'm making my section headers very clear with a white background.
-     added some padding and removed the default bold again, and
-     added some top margin */
-  background: #FFDAF3;
-  padding: 0.5em;
-  font-weight: normal;
-  color: black;
-  margin-top: 2em;
+#toc a:hover {
+  color: white;
 }
 
 
@@ -44,20 +51,41 @@ h2 {
   /* you could also change the type of bullet with the above declaration! */
 }
 
-    #toc {
-      position: fixed;
-      top: 1em;
-      left: .001em;
-      /* a background color might help it be differentiated from the rest */
-      background: pink;
-      /* that means you'll have to change the color of the text */
-      color: black;
-      /* some padding might make it look better */
-      padding: 1em;
-      /* maybe making the font size here smaller will help too */
-      font-size: 0.7em;
-      font-family: Arial;
-    }
+figure {
+  margin: 0;
+}
+
+
+figcaption {
+  font-size: 0.7em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
