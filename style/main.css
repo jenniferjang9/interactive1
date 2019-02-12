@@ -9,12 +9,12 @@
 /* begin styles */
 
 body {
-	color: white;
+	color: #BF938C;
   background: #FCF4EA;
 }
 
 body {
-  background-image: url("marble2.jpeg")
+  background-image: url("city.jpeg")
   background-size: auto 100%;;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 #container {
- background-image: url("mirrors.jpg");
+ background-image: url("city.jpg");
  background-repeat: no-repeat;
  background-position: center;
 }
