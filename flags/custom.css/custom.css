@@ -18,14 +18,11 @@ body {
 }
 
 /* shapes */
-#circle {
-        width: 150px;
-        height: 150px;
-        background: red;
-        border-radius: 75px;
+
+    #circle {
+      width: 100px;
+      height: 100px;
+      background: red;
+      border-radius: 50%
 }
 
-#homer .head *
-{
-    border: 1px solid #110b00;
-}
