@@ -24,3 +24,8 @@ body {
         background: red;
         border-radius: 75px;
 }
+
+#homer .head *
+{
+    border: 1px solid #110b00;
+}
