@@ -17,9 +17,9 @@ body {
 }
 
 /* shapes */
+
 #circle {
-        
- width: 150px;
+        width: 150px;
         height: 150px;
         background: red;
         border-radius: 75px;
