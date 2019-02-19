@@ -15,63 +15,88 @@ body {
         height: 300px;
         position: relative;
         background: #FFF5AF;
+        display: flex;
+        flex-direction:row;
+       flex-wrap:wrap;
+       justify-content: center;
+        /* Default of all elements, unless UA stylesheet overrides */
+ 
 }
+
+
+/*#container{
+  display: flex;*/  /* Characteristics of block, but sits on a line */
+/*  position: relative;*/
+  
+
+        
+/*}*/
 
 /* shapes */
 
+
     #circle {
-      width: 100px;
+       width: 100px;
+    height: 50px; /* as the half of the width */
+    background-color: #FFF5AF;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 20px solid #7EA8FC;
+    border-bottom: 0;
+    transform: scale(0.5);
+      /*width: 100px;
       height: 100px;
       background: #7EA8FC;
-      border-radius: 50px;
+      border-radius: 50px;*/
 }
 
     #circle-1 {
-      width: 100px;
+       width: 100px;
+    height: 50px; /* as the half of the width */
+    background-color: #FFA6A6;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 20px solid #FFA6A6;
+    border-bottom: 0;
+    transform: scale(0.5);
+      /*width: 100px;
       height: 100px;
       background: #FFA6A6;
       border-radius: 70px;
       position: absolute;
         top: 85px;
-        left: 185px;
+        left: 185px;*/
       
-}
 
-    #circle-2 {
-      width: 100px;
-      height: 100px;
-      background: #FFF5AF;
-      border-radius: 50px;
      
-}
 
-    #circle-3 {
+
+    /*#circle-3 {
       width: 100px;
       height: 100px;
       background: #FFA6A6;
       border-radius: 50px;
 
 
+
+
+}*/
+
 }
 
-    #rectangle {
-      width: 100px;
-      height: 100px;
-      background: #7EA8FC;
-      border-radius: 100px;
-      
-}
+#circle-2 { 
+    width: 100px;
+    height: 50px; /* as the half of the width */
+    background-color: #7EA8FC;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 20px solid #FFA6A6;
+    border-bottom: 0;
+    transform: scale(0.5);
 
-    #rectangle-2 {
-      width: 75px;
-      height: 75px;
-      background: #FFF5AF;
-      border-radius: 100px;
-       top: 200px;
-        left: 250px;
-        right:150px;
 }
-
+ 
+ 
 
 
 
