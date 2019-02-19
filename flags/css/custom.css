@@ -6,7 +6,7 @@
 
 /* make the background of the page black */
 body {
-        background: black;
+        background: #DBD3CA;
 }
 
 /* flag canvas */
@@ -36,23 +36,23 @@ body {
 /* shapes */
 
 #canvas {
-        animation: colorchange 100s; /* animation-name followed by duration in seconds*/
+        animation: colorchange 10s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 100s; /* Chrome and Safari */
+      -webkit-animation: colorchange 10s infinite; /* Chrome and Safari */
     }
 
     @keyframes colorchange
     {
-      0%   {background: #52ABF9;}
+      0%   {background: #A5D6FF;}
       50%  {background: white;}
-      100% {background: #52ABF9;}
+      100% {background: #A5D6FF;}
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: #52ABF9;}
+      0%   {background: #A5D6FF;}
       50%  {background: white;}
-      100% {background: #52ABF9;}
+      100% {background: #A5D6FF;}
     }
 
 
@@ -62,10 +62,12 @@ body {
     background-color: white;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
-    border: 20px solid #7EA8FC;
+    border: 20px solid #A5D6FF;
     border-bottom: 0;
     transform: scale(0.7);
     top: 50px;
+     position:relative;
+    top: 100px
    
       /*width: 100px;
       height: 100px;
@@ -82,6 +84,8 @@ body {
     border: 20px solid #FFA6A6;
     border-bottom: 0;
     transform: scale(0.7);
+     position:relative;
+    top: 100px
    
       /*width: 100px;
       height: 100px;
@@ -111,12 +115,15 @@ body {
 #circle-2 { 
     width: 100px;
     height: 50px; /* as the half of the width */
-    background-color: #7EA8FC;
+    background-color: #A5D6FF;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
     border: 20px solid #FFA6A6;
     border-bottom: 0;
     transform: scale(0.7);
+    position:relative;
+    top: 100px
+
 
 }
  
@@ -163,6 +170,7 @@ body {
   transform: rotate(180deg);
 }
    
+
 
 
 
