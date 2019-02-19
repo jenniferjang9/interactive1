@@ -1,12 +1,12 @@
 
 body {
-  background: #FFE3D8;
+  background: white;
   /* The above is called a hex code.
      There are two other ways to do colors in CSS: rgb and common names
      Find "Digital Color Meter" on your computer to explore more */
-  color: maroon;
+  color: #FFA889;
   font-size: 22px;
-  font-family: Raleway ;
+  font-family: Andale mono ;
 }
 
 #container {
@@ -15,7 +15,6 @@ body {
   /* I put "max-width" rather than "width" because
      if the screen width is less than 650px, it will shrink accordingly. */
 }
-
 
 
     #toc {
@@ -30,17 +29,17 @@ body {
       padding: 1em;
       /* maybe making the font size here smaller will help too */
       font-size: 0.7em;
-      font-family: raleway ;
+      font-family: "andale mono" ;
     }
 
 
 #toc a {
-  color: maroon;
+  color: #FFBC00;
   text-decoration: none;
 }
 
 #toc a:hover {
-  color: white;
+  color: #EE7B42;
 }
 
 
@@ -60,9 +59,18 @@ figcaption {
 }
 
 
+h1{
+  color: #FF9B76;
+  font-family: "andale mono" ;
+  font-size: 75px;
+  ;
 }
 
-
+h3 {
+  color: #FFBC00;
+  font-family: "andale mono";
+  font-size: 20px;
+}
 
 
 
