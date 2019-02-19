@@ -4,10 +4,6 @@
         margin: 0px; padding: 0px;
 }
 
-body {
-        background: black;
-}
-
 /* flag canvas */
 #canvas {
         width: 500px;
@@ -16,19 +12,160 @@ body {
         background: white;
 }
 
+#circle {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px; 
+        position: relative;
+        top: 90px;
+        left: 180px;
+}
+
+body {
+        background: black
+}
 /* shapes */
 
-#circle {
-  background-image:
-    radial-gradient(
-      circle at top right,
-     red,
-     blue
+.yy{
+        background: #fff;
+        width: 150px;
+        height: 0px;
+        margin: 50px 0 0 125px;
+        position: absolute;
+        border-top: solid 76px #c40e2f;
+        border-bottom: solid 76px #003478;      
+        border-left: 0;
+        border-right: 0;
+        border-radius: 76px;
+        -moz-border-radius: 76px;
+        -webkit-border-radius: 76px;
+        position:absolute;
+        top: 30px;
+        left:50px
+}
 
+.yin{
+        background: #c40e2f;
+        width: 76px;
+        height: 76px;
+        margin-top: -38px;
+        position: absolute;
+        border-radius: 40px;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        position: relative;
+}
+.yang{
+        background: #003478;
+        width: 75px;
+        height: 75px;
+        margin: -38px 0 0 75px;
+        position: absolute;
+        border-radius: 40px;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        position: relative;
+         top: -30px
+}
+
+
+    body{
+        background: #222;
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+
+}
+
+ body {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
     }
 
-#rectangle {
-      width: 100px;
-      height: 100px;
-      background: #7EA8FC;
-      border-radius: 50%
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      50%  {background: blue;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      50%  {background: blue;}
+      100% {background: red;}
+    }
+
+
+
+.fullstr{
+        background: #000;
+        width: 70px;
+        height: 12px;
+        margin-bottom: 8px;
+}
+
+.halfstr{
+        background: #fff;
+        width: 10px;
+        border-left: solid 30px #000;
+        border-right: solid 30px #000;
+        height: 12px;
+        margin-bottom: 8px;
+}
+
+#stroke-1{
+        position: relative;
+        margin: 20px 0 0 45px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg); 
+              top: -377px;
+        left: -30px;    
+}
+
+#stroke-2{
+        position: relative;
+        margin: 175px 0 0 45px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg); 
+          top: -247px;
+        left: -35px;      
+}
+
+#stroke-3{
+        position: relative;
+        margin: 20px 0 0 275px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+         top: -560px;
+        left: 80px;
+}
+
+#stroke-4{
+        position: relative;
+        margin: 175px 0 0 275px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-500 deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+       top: -665px;
+        left: 80px;
+}
+
+/*#polygon {
+-webkit-clip-path: polygon(80% 0, 100% 20%, 19% 100%, 0 79%);
+clip-path: polygon(80% 0, 100% 20%, 19% 100%, 0 79%);
+color: pink
+
+}*/
+
+
+
+       

@@ -14,11 +14,12 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: #FFF5AF;
+        background: white;
         display: flex;
         flex-direction:row;
        flex-wrap:wrap;
        justify-content: center;
+       
         /* Default of all elements, unless UA stylesheet overrides */
  
 }
@@ -34,16 +35,38 @@ body {
 
 /* shapes */
 
+#canvas {
+        animation: colorchange 100s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #52ABF9;}
+      50%  {background: white;}
+      100% {background: #52ABF9;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #52ABF9;}
+      50%  {background: white;}
+      100% {background: #52ABF9;}
+    }
+
 
     #circle {
        width: 100px;
     height: 50px; /* as the half of the width */
-    background-color: #FFF5AF;
+    background-color: white;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
     border: 20px solid #7EA8FC;
     border-bottom: 0;
-    transform: scale(0.5);
+    transform: scale(0.7);
+    top: 50px;
+   
       /*width: 100px;
       height: 100px;
       background: #7EA8FC;
@@ -58,7 +81,8 @@ body {
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
     border: 20px solid #FFA6A6;
     border-bottom: 0;
-    transform: scale(0.5);
+    transform: scale(0.7);
+   
       /*width: 100px;
       height: 100px;
       background: #FFA6A6;
@@ -69,6 +93,7 @@ body {
       
 
      
+
 
 
     /*#circle-3 {
@@ -83,7 +108,6 @@ body {
 }*/
 
 }
-
 #circle-2 { 
     width: 100px;
     height: 50px; /* as the half of the width */
@@ -92,12 +116,53 @@ body {
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
     border: 20px solid #FFA6A6;
     border-bottom: 0;
-    transform: scale(0.5);
+    transform: scale(0.7);
 
 }
  
  
+#circle:hover{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
 
+
+
+
+#circle-1:hover{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#circle-2:hover{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+   
 
 
 
