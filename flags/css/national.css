@@ -78,8 +78,7 @@ body {
 }
 
  body {
-      animation: colorchange 10s infinite; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
+      animation: colorchange 10s infinite; /* animation-name followed by duration in seconds*
       -webkit-animation: colorchange 10s infinite; /* Chrome and Safari */
     }
 
@@ -99,14 +98,14 @@ body {
 
 
 
-.fullstr{
+.fullstroke{
         background: #000;
         width: 70px;
         height: 12px;
         margin-bottom: 8px;
 }
 
-.halfstr{
+.halfstroke{
         background: #fff;
         width: 10px;
         border-left: solid 30px #000;
