@@ -1,7 +1,9 @@
 
 /* reset styles */
 * {
-        margin: 0px; padding: 0px;
+        margin: 0px; padding: 0px; 
+        margin-top: 5px;
+        margin-left: -25px;
 }
 
 /* flag canvas */
@@ -21,9 +23,6 @@
         left: 180px;
 }
 
-body {
-        background: black
-}
 /* shapes */
 
 .circles{
@@ -54,6 +53,8 @@ body {
         -moz-border-radius: 40px;
         -webkit-border-radius: 40px;
         position: relative;
+        top: 10px;
+        left:25px;
 }
 .circle-2{
         background: #003478;
@@ -65,7 +66,8 @@ body {
         -moz-border-radius: 40px;
         -webkit-border-radius: 40px;
         position: relative;
-         top: -30px
+        top: -30px;
+        left: 0px;
 }
 
 
@@ -121,8 +123,8 @@ body {
         -moz-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
         transform: rotate(-45deg); 
-              top: -377px;
-        left: -30px;    
+                 top: -387px;
+        left: -40px;   
 }
 
 #stroke-2{
@@ -132,7 +134,7 @@ body {
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         transform: rotate(45deg); 
-          top: -247px;
+       top: -225px;
         left: -35px;      
 }
 
@@ -143,7 +145,7 @@ body {
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         transform: rotate(45deg);
-         top: -560px;
+         top: -535px;
         left: 80px;
 }
 
@@ -154,7 +156,7 @@ body {
         -moz-transform: rotate(-500 deg);
         -o-transform: rotate(-45deg);
         transform: rotate(-45deg);
-       top: -665px;
+      top: -680px;
         left: 80px;
 }
 
