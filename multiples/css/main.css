@@ -7,6 +7,9 @@
 body {
     background: #e1cbaf;
 }
+img{
+    max-width: 800px;
+}
 #desktop {
     display: inline;
     color: white;
@@ -45,6 +48,7 @@ body {
     #print {
         display: none;
     }
+
 }
 /* print */
 @media print {
