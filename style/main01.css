@@ -1,0 +1,132 @@
+
+/* reset styles */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+ body {
+      text-align: center;
+      font-family: "Helvetica", sans-serif;
+      font-size: 80px;
+    }
+
+   .colorful {
+      background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+      background-size: 1800% 1800%;
+      animation: rainbow 18s ease infinite;
+    }
+    
+    @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+    }
+
+#container {
+  font-family: "andale mono", sans-serif; font-size: 22px;
+}
+
+
+    h1 {
+    margin-top: 100px;
+    color: white;
+    font-size: 75px;
+    font-family: "andale mono"
+}
+
+a {
+  color: white;
+}
+
+  ul {
+      list-style-type: none;
+    }
+
+/*#container {
+	color: black;
+ background-image: url("images/mirrors.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 400px;
+ height: 400px;
+ border: 2px dashed #333;
+
+}*/
+
+#container {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/*#container {
+  font-family: raleway bold; font-size: 80px;
+
+}*/
+
+#container {
+  max-width: 650px;
+  }
+
+#article-title {
+  text-transform: capitalize;
+}
+
+a {
+  color: #BFADAD;
+}
+
+ <style>
+  a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFC914;
+}
+
+/* selected link */
+a:active {
+  color: #FFC914;
+}
+  </style>
+  <style>
+     /* body {
+        background-image: url("images/sky.jpg");
+        
+
+      }*/
+
+
+   
+
+
+
