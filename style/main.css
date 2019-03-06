@@ -51,7 +51,7 @@ a:active {
 
       }*/
 body {
-	color: white;
+  color: white;
 }
 
 body {
@@ -79,12 +79,16 @@ h1 {
     font-family: "andale mono"
 }
 
-h2  {
+h3  {
   color: white;
 
 }
 a {
   color: white;
+}
+
+p{
+  color:white
 }
 
   ul {
