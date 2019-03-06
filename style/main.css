@@ -59,6 +59,9 @@ body {
   background-size: auto 100%;;
 }
 
+body.colorful #article-title {
+  transform: scale(2);
+}
 
 #container {
   margin-top: 50px;
@@ -94,3 +97,4 @@ p{
   ul {
       list-style-type: none;
     }
+
