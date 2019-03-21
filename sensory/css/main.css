@@ -8,14 +8,13 @@
   background-image: linear-gradient(#0DC0FF, black);
 }
 
-body.colorful #pattern-1{
+body.transform #pattern-1{
 	transform: scale(2);
 }
 
 /* shapes */
 /* make all divs inside of #canvas a circle */
 #canvas div{
-  border-radius: 200px;
   position: absolute;
 }
 
@@ -144,8 +143,8 @@ body.colorful #pattern-1{
 	 width: 30px;
     height: 30px;
     background: white;
-    left: 900px;
-    top: 1200px;
+    left: 1200px;
+    top: 900px;
      animation: shape-8 3.5s alternate infinite;
     opacity:.5;
 	filter: blur(10px);
@@ -191,61 +190,40 @@ body.colorful #pattern-1{
 	100% {opacity:1;}
 }
 
-
-
-/*#shape-8{
-	transition: all to ease;
-
-}
-#shape-3:hover{
-		opacity:100;
-}
-
-#shape-4:hover{
-		opacity:100;
-	
-}
-#shape-5:hover{
-		opacity:100;
-	
-}
-#shape-6:hover{
-		opacity:100;
-	
-}
-#shape-7:hover{
-		opacity:100;
-	
-}
-
-#shape-8:hover{
-		opacity:100;
-	
-	
-}
-#shape-9:hover{
-		opacity:100;	
-}
-#shape-10:hover{
-
-		opacity:100;
-	
-}
-*/
-
 #pattern-1{
-	top:3000px;
-	left:5000px;
-	height: 100vh;
+	position: absolute;
+	top:300px;
+	left:300px;
+	width: 300px;
+	height: 2000px;
+
+	transform-origin: top center;
+}
+
+#pattern-2{
+	top:2000px;
+	left:0px;
+	height: 2000px;
+	width: 100vw;
 
 }
 
-/*#pattern-2{
-	top:5000px;
-	left:800px;
-	height: 100vh;
+#pattern-3{
+	top:4000px;
+	left: 900px;
+	height: 2000vh;
+	width: 100vw;
 
-}*/
+}
+
+
+#pattern-4{
+	top:4000px;
+	left: 900px;
+	height: 7000vh;
+	width: 100vw;
+
+}
 
 
 
