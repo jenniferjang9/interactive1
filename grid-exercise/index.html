@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="YOUR DESCRIPTION HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/grid-exercise.css">
+  <title>jennifer's grid</title>
+</head>
+<body>
+
+ <!--  <div id="container">
+    <h2> id="Subject: 
+         Forget aging and dieting forever! 7720-4
+    Date: 
+         Wed, 06 Nov 2002 08:02:31 +1000
+   From: 
+         katie katie7810b32@representative.com
+     To: 
+         You@representative.com"</h2>
+    <p> Reduce the amount of sleep you need
+Cause wounds to heal faster
+Lose weight while your sleeping
+Become less winded when excersizing
+Put color back in grey hair
+Grow hair back where it had once fallen out
+Tighten skin
+Strengthen bones
+Body builders - use this to build your muscles quicker
+..........The List truly goes on and on..........
+
+As seen on NBC, CBS, CNN, and Oprah! The health discovery 
+that actually reverses aging symptoms without dieting or exercise! 
+This PROVEN FDA approved discovery has been reported on by the 
+New England Journal of Medicine - don't just take our word for it.
+
+In fact we'd like you to receive a FREE 30 day supply; look and feel 
+younger, lose weight, reduce sleep, The list goes on, we 
+encourage you to at least take a look at the information as to
+what else it can do</p>
+ -->
+
+<div class="grid-container">
+  <div class="grid-item" id="item-1">1</div>
+  <div class="grid-item"><a href="popup-01.html" class="window-1">2</a></div>
+
+  <div class="square"></div>
+
+ <!--  <div class="grid-item"> <h2> id="Subject: 
+         Forget aging and dieting forever! 7720-4
+    Date: 
+         Wed, 06 Nov 2002 08:02:31 +1000
+   From: 
+         katie katie7810b32@representative.com
+     To: 
+         You@representative.com"</h2>
+    <p> Reduce the amount of sleep you need
+Cause wounds to heal faster
+Lose weight while your sleeping
+Become less winded when excersizing
+Put color back in grey hair
+Grow hair back where it had once fallen out
+Tighten skin
+Strengthen bones
+Body builders - use this to build your muscles quicker
+..........The List truly goes on and on..........
+
+As seen on NBC, CBS, CNN, and Oprah! The health discovery 
+that actually reverses aging symptoms without dieting or exercise! 
+This PROVEN FDA approved discovery has been reported on by the 
+New England Journal of Medicine - don't just take our word for it.
+
+In fact we'd like you to receive a FREE 30 day supply; look and feel 
+younger, lose weight, reduce sleep, The list goes on, we 
+encourage you to at least take a look at the information as to
+what else it can do</p></div>
+ -->
+
+
+<!-- THIS IS THE CODE FOR THE APPLE LINK --> 
+<!--   <div class="grid-item"><a href="http://apple.com" class="window-2">4</a></div> -->
+
+
+
+
+<!--   <div class="grid-item">5</div> -->
+<!--   <div class="grid-item">6</div>
+  <div class="grid-item">7</div> -->
+ 
+<!--   <div class="grid-item" id="item-2">2</div>
+  <div class="grid-item" id="item-3">3</div> -->
+  <!-- <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div> -->
+<!-- </div> -->
+
+<!-- <div class="grid-item" id="item-1">1</div>
+<div class="grid-item" id="item-2">1</div> -->
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> 
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+
+
+  var randomnumber = Math.floor((Math.random()*100)+1); 
+
+  $('.window-1').click(function() {
+    window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width=500, height=600, top=100, left=300');
+      return false;
+  });
+
+  $('.window-2').click(function() {
+    window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width=500, height=500, top=100, left=20');
+      return false;
+  });  
+
+});
+
+
+</script>
+
+</body>
+</html>
