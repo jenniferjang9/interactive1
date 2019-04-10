@@ -1,0 +1,30 @@
+
+	
+		body{
+	background: #6cffff;
+	}
+
+	html {
+	background: #6cffff;;
+	margin:  0 4rem;
+}
+
+a:visited { color: #ff8243; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: #ff1212; text-decoration: none}
+
+
+.window-1 {
+	font-family: peepo;
+	font-size: 6rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+}
+
+a{
+	font-family: OCR A Std;
+	text-decoration: none
+	
+}

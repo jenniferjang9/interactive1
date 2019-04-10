@@ -1,7 +1,132 @@
 
-body {
-	background: beige;
+
+		body{
+			background:#42c7f1 ;
+		}
+	
+
+
+/*img {
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}*/
+
+
+/* this is my mail icon*/
+.mail{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 200px ;
+ 	width: 30%;
 }
+
+#notif{
+	position: relative;
+	margin-left: auto;
+ 	margin-right: auto;
+ margin-top: 200px ;
+	display: none;
+	width: 30%;
+}
+
+
+
+a:link { color: red; text-decoration: none; font-family: fatfrank;}
+a:visited { color: brown; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: pink; text-decoration: none}
+
+
+/*#mail_button {*/
+/*  background-image: url("images/mail-pixel.png");*/
+/*}*/
+
+/*#mail_button {
+  width: 150px;
+  height: 150px;
+  background-image: url('http://i.stack.imgur.com/sfed8.png');
+  background-size: cover;
+  background-color: #eee;
+  }*/
+
+
+     
+/*	
+body{
+	background: #FFF4DB;
+	}
+
+html {
+	background: #FFF4DB;
+	margin:  0 4rem;
+}*/
+
+
+
+.header {
+	font-family: fatfrank;
+	font-size: 6rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	/*background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+	*/
+
+}
+
+/*
+/*<!--blinking background-->*/
+<style>
+  @-webkit-keyframes argh-my-eyes {
+    0%   { background-color: #ffcf83; }
+    49% { background-color: #ffcf83; }
+    50% { background-color: #fcea9f; }
+    99% { background-color: #fcea9f; }
+    100% { background-color: #ffcf83; }
+  }
+  @-moz-keyframes argh-my-eyes {
+    0%   { background-color:#ffcf83; }
+    49% { background-color: #ffcf83; }
+    50% { background-color: #fcea9f; }
+    99% { background-color: #fcea9f; }
+    100% { background-color: #ffcf83; }
+  }
+  @keyframes argh-my-eyes {
+    0%   { background-color:#ffcf83; }
+    49% { background-color: #ffcf83; }
+    50% { background-color: #fcea9f; }
+    99% { background-color: #fcea9f; }
+    100% { background-color: #ffcf83; }
+  }
+  body {
+  -webkit-animation: argh-my-eyes 2s infinite;
+  -moz-animation:    argh-my-eyes 2s infinite;
+  animation:         argh-my-eyes 2s infinite;
+}
+</style>
+
+.grid-container{
+	position: center;
+	left: 20px;
+	top: 300px;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 
 /*.square {
   width: 100px;
@@ -13,11 +138,12 @@ body {
     right: 51px;
 }
 
+
 .square: hover{
     background:#blue;
 }*/
 
-.square {
+/*.square {
   background: white;
   border-radius: 6;
   transition-property: background, border-radius;
@@ -38,6 +164,7 @@ body {
   background: skyblue;
   border-radius: 50%;
 }
+*/
 
 
 
@@ -85,6 +212,7 @@ body {
 /*  grid-row-start: 2;
   grid-row-end: ; */
 }*/*/
+
 
 
 

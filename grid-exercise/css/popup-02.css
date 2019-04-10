@@ -1,0 +1,42 @@
+
+	
+		body{
+	background: #fff18d;
+	}
+
+	html {
+	background: #fff18d;;
+	margin:  0 4rem;
+}
+
+
+a:visited { color: #f89a38; text-decoration: none}
+a:hover { color: #43ffa1; text-decoration: none}
+a:active { color: #f89a38; text-decoration: none}
+
+
+
+.window-1 {
+	font-family: peepo;
+	font-size: 8rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+}
+
+a:link { color: skyblue; text-decoration: none}
+
+
+a{
+	font-family: OCR A Std;
+	text-decoration: none
+	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+	
+		body{
+	background: #f99bdf;
+	}
+
+	html {
+	background: #f99bdf;;
+	margin:  0 4rem;
+}
+
+
+
+a:visited { color: brown; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: pink; text-decoration: none}
+
+
+.window-1 {
+	font-family: OCR A Std;
+	font-size: 20pt;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+}
+
+a:link { color: red; text-decoration: none}
+
+
+a{
+	font-family: fatfrank;
+	
+}
