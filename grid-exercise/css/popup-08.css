@@ -1,16 +1,16 @@
 
 	
 		body{
-	background: #6cffff;
+	background: #6B0C33;
 	}
 
 	html {
-	background: #6cffff;;
+	background: #6B0C33;;
 	margin:  0 4rem;
 }
 
-a:visited { color: #ff8243; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
+a:visited { color: #A1BEFF; text-decoration: none}
+a:hover { color: #FF7900; text-decoration: none}
 a:active { color: #ff1212; text-decoration: none}
 
 

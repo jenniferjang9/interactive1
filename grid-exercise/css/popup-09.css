@@ -1,17 +1,17 @@
 
 	
 		body{
-	background: #6cffff;
+	background: #FFA9C8;
 	}
 
 	html {
-	background: #6cffff;;
+	background: #FFA9C8;;
 	margin:  0 4rem;
 }
 
-a:visited { color: #ff8243; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
-a:active { color: #ff1212; text-decoration: none}
+a:visited { color: #FF0074; text-decoration: none}
+a:hover { color: #8800FF; text-decoration: none}
+a:active { color: white; text-decoration: none}
 
 
 .window-1 {
@@ -28,6 +28,8 @@ a{
 	text-decoration: none
 	
 }
+
+
 
 
 

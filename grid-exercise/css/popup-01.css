@@ -10,7 +10,7 @@
 }
 
 a:visited { color: blue; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
+a:hover { color: #FF64B2; text-decoration: none}
 a:active { color: pink; text-decoration: none}
 
 .window-1 {

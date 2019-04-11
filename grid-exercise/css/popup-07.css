@@ -1,17 +1,17 @@
 
 	
 		body{
-	background: #6cffff;
+	background: yellow;
 	}
 
 	html {
-	background: #6cffff;;
+	background: yellow;;
 	margin:  0 4rem;
 }
 
-a:visited { color: #ff8243; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
-a:active { color: #ff1212; text-decoration: none}
+a:visited { color: #09076D; text-decoration: none}
+a:hover { color: brown; text-decoration: none}
+a:active { color: pink; text-decoration: none}
 
 
 .window-1 {

@@ -1,19 +1,19 @@
 
 
 
-/*  
+  
     body{
-  background: #6cffff;
+  background: #72BF47;
   }
 
   html {
-  background: #6cffff;;
+  background: #72BF47;;
   margin:  0 4rem;
-}*/
+}
 
-a:visited { color: white; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
-a:active { color: pink; text-decoration: none}
+a:visited { color: #033F00; text-decoration: none}
+a:hover { color: #FFEE9C; text-decoration: none}
+a:active { color: white; text-decoration: none}
 
 
 .window-1 {
@@ -30,7 +30,7 @@ a{
   text-decoration: none
   
 }
-
+/*
 body {
   width: 100wh;
   height: 90vh;
@@ -78,7 +78,7 @@ body {
   }
 }
 
-
+*/
 
 
 /*
