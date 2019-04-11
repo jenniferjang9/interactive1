@@ -10,13 +10,13 @@
 }
 
 a:visited { color: #cb4dff; text-decoration: none}
-a:hover { color: yellow; text-decoration: none}
+a:hover { color: #6cffff; text-decoration: none}
 a:active { color: #cb4dff; text-decoration: none}
  
 
 .window-1 {
 	font-family: Peepo;
-	font-size: 9rem;
+	font-size: 4rem;
 	font-weight:  100;
 	letter-spacing: 2px;
 	text-align: center;
@@ -28,7 +28,7 @@ a:link { color: red; text-decoration: none}
 
 
 a{
-	font-family: OCR A Std;
+	font-family: Peepo;
 	text-decoration: none
 	
 }

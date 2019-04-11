@@ -1,6 +1,4 @@
 
-
-
 /*  
     body{
   background: #6cffff;
@@ -18,11 +16,11 @@ a:active { color: pink; text-decoration: none}
 
 .window-1 {
   font-family: peepo;
-  font-size: 20rem;
+  font-size: 8rem;
   font-weight: 100;
   letter-spacing: 2px;
   text-align: center;
-  color: #095117;
+  color: white;
 }
 
 a{
@@ -35,11 +33,11 @@ body {
   width: 100wh;
   height: 90vh;
   color: #fff;
-  background: linear-gradient(-45deg, #80C99A, #72BF47, #D0DD27, #FEDA00);
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 3s ease infinite;
-  -moz-animation: Gradient 3s ease infinite;
-  animation: Gradient 3s ease infinite;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -79,38 +77,3 @@ body {
 }
 
 
-
-
-/*
-	
-		body{
-	background: #fcb12b;
-	}
-
-	html {
-	background: #fcb12b;;
-	margin:  0 4rem;
-}
-
-a:visited { color: green; 
-			text-decoration: none}
-a:hover { color: #acfcd2 ; 
-		text-decoration: none}
-a:active { color: pink; 
-			text-decoration: none}
-
-
-.window-1 {
-	font-family: peepo;
-	font-size: 25rem;
-	font-weight:  100;
-	letter-spacing: 2px;
-	text-align: center;
-	color: #f35626;
-}
-
-a{
-	font-family: peepo;
-	text-decoration: none
-	
-}*/

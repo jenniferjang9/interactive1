@@ -1,0 +1,31 @@
+
+  
+    body{
+  background: #6cffff;
+  }
+
+  html {
+  background: #6cffff;;
+  margin:  0 4rem;
+}
+
+a:visited { color: white; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: pink; text-decoration: none}
+
+
+.window-1 {
+  font-family: peepo;
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+
+a{
+  font-family: peepo;
+  text-decoration: none
+  
+}
+

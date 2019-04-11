@@ -1,0 +1,81 @@
+
+  
+/*    body{
+  background: #6cffff;
+  }
+
+  html {
+  background: #6cffff;;
+  margin:  0 4rem;
+}
+*/
+a:visited { color: white; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: pink; text-decoration: none}
+
+
+.window-1 {
+  font-family: peepo;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+
+a{
+  font-family: peepo;
+  text-decoration: none;
+  position: relative;
+  top: 50px ;
+  
+}
+
+img{
+    max-width: 1100px;
+}
+
+/*<!--blinking background-->*/
+
+  @-webkit-keyframes argh-my-eyes {
+    0%   { background-color: #E00000; }
+    49% { background-color: #E00000; }
+    50% { background-color: #A81616; }
+    99% { background-color: #A81616; }
+    100% { background-color: #E00000; }
+  }
+  @-moz-keyframes argh-my-eyes {
+    0%   { background-color: #E00000; }
+    49% { background-color: #E00000; }
+    50% { background-color: #A81616; }
+    99% { background-color: #A81616; }
+    100% { background-color: #E00000; }
+  }
+  @keyframes argh-my-eyes {
+    0%   { background-color: #E00000; }
+    49% { background-color: #E00000; }
+    50% { background-color: #A81616; }
+    99% { background-color: #A81616; }
+    100% { background-color: #E00000; }
+  }
+  body {
+  -webkit-animation: argh-my-eyes 2s infinite;
+  -moz-animation:    argh-my-eyes 2s infinite;
+  animation:         argh-my-eyes 2s infinite;
+}
+</style>
+
+.grid-container{
+  position: center;
+  left: 20px;
+  top: 300px;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}

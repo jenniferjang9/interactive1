@@ -5,16 +5,14 @@
 <head>
  		<img src="" style=" width: 50%; " />
 
-  <link rel="stylesheet" type="text/css" href="css/popup-07.css">
+  <link rel="stylesheet" type="text/css" href="css/popup-07.css"> 
 
 </head>
 
 
 <body>
 
-   <a class="window-1" href="popup-07.html">Pop up ads were very common during the earlier years of technology. It gradually contributed to what it meant to experience being online. Pop-up ads were everywhere, interrupting users by loading websites with little windows that pop-up through each load. However, today, technology has definitely developed enough to block out most pop-up ads. Many browsers had a pop-up blocking functionality and a lot of programmers have been finding solutions to help disable such advertisements.</a>
-
-<!-- <a class="window-1" href="popup-03.html">NOW!!</a> -->
+<a class="window-1" href="popup-08.html">Verify</a>
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> 
 
@@ -27,8 +25,8 @@ $(document).ready(function() {
   var randomnumber = Math.floor((Math.random()*100)+1); 
 
   $('.window-1').click(function() {
-    window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width=1000, height=300, top=80, left=50');
-      return false;
+    window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width=900, height=650, top=120, left=300');
+      return false; 
   });
 
   $('.window-2').click(function() {

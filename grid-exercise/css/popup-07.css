@@ -1,34 +1,30 @@
 
 	
 		body{
-	background: #f99bdf;
+	background: #6cffff;
 	}
 
 	html {
-	background: #f99bdf;;
+	background: #6cffff;;
 	margin:  0 4rem;
 }
 
-
-
-a:visited { color: brown; text-decoration: none}
+a:visited { color: #ff8243; text-decoration: none}
 a:hover { color: yellow; text-decoration: none}
-a:active { color: pink; text-decoration: none}
+a:active { color: #ff1212; text-decoration: none}
 
 
 .window-1 {
-	font-family: OCR A Std;
-	font-size: 20pt;
+	font-family: peepo;
+	font-size: 1rem;
 	font-weight:  100;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #f35626;
 }
 
-a:link { color: red; text-decoration: none}
-
-
 a{
-	font-family: fatfrank;
+	font-family: peepo;
+	text-decoration: none
 	
 }

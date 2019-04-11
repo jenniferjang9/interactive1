@@ -1,0 +1,51 @@
+
+	
+		body{
+	background: #FFB9A6;
+	}
+
+	html {
+	background: #FFB9A6;;
+	margin:  0 4rem;
+}
+
+/*a:visited { color: brown; text-decoration: none}
+a:hover { color: yellow; text-decoration: none}
+a:active { color: pink; text-decoration: none}*/
+
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.window-1 {
+	font-family: OCR A Std;
+	font-size: 20pt;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: left;
+  line-height: 200%;
+	color: #C90D16;
+}
+
+
+a{
+  text-decoration: none
+  
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+
+
+
+
