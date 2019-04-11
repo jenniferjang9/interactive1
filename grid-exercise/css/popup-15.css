@@ -1,11 +1,11 @@
 
 	
 		body{
-	background: #FFB9A6;
+	background: #EDE4DC;
 	}
 
 	html {
-	background: #FFB9A6;;
+	background: #EDE4DC;;
 	margin:  0 4rem;
 }
 
@@ -29,8 +29,8 @@ a:active { color: pink; text-decoration: none}*/
 	font-weight:  100;
 	letter-spacing: 2px;
 	text-align: left;
-  line-height: 200%;
-	color: #C90D16;
+  line-height: 175%;
+	color: #666059;
 }
 
 
