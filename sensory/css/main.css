@@ -60,8 +60,8 @@ body.transform #pattern-1{
     left: 1700px;
     top: 300px;
     animation: shape-3 2s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+   /* opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-3{
@@ -77,8 +77,8 @@ body.transform #pattern-1{
     left: 400px;
     top: 900px;
     animation: shape-4 3.5s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+/*    opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-4{
@@ -95,8 +95,8 @@ body.transform #pattern-1{
     left: 1400px;
     top: 1500px;
      animation: shape-5 2s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+  /*  opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-5{
@@ -112,8 +112,8 @@ body.transform #pattern-1{
     left: 700px;
     top: 1800px;
     animation: shape-6 2.5s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+   /* opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-6{
@@ -129,8 +129,8 @@ body.transform #pattern-1{
     left: 300px;
     top: 1600px;
      animation: shape-7 2s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+  /*  opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-7{
@@ -146,8 +146,8 @@ body.transform #pattern-1{
     left: 1200px;
     top: 900px;
      animation: shape-8 3.5s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+  /*  opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-8{
@@ -163,8 +163,8 @@ body.transform #pattern-1{
     left: 1600px;
     top: 800px;
      animation: shape-9 2s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+  /*  opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-9{
@@ -180,8 +180,8 @@ body.transform #pattern-1{
     left: 900px;
     top: 1200px;
      animation: shape-10 4s alternate infinite;
-    opacity:.5;
-	filter: blur(10px);
+  /*  opacity:.5;
+	filter: blur(10px);*/
 }
 
 @keyframes shape-10{
