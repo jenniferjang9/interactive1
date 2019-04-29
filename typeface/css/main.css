@@ -19,16 +19,176 @@ background-color: black;
 }
 
 .grid-item.space{
-    background-color: white;
+    background-color: transparent;
+}
+
+.layers-container{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: inline-grid;
+}
+
+.layers-container .grid-container {
+    position: absolute;
+    transition: all 500ms ease;
+    mix-blend-mode: multiply;
 }
 
 
 
- 
+
+.layers-container .grid-container.cyan .grid-item{
+     background-color: cyan;
+}     
+
+.layers-container:hover .grid-container.cyan{
+     transform: translateX(1px);
+
+}     
+
+.layers-container .grid-container.cyan .grid-item.space{
+     background-color: transparent;
+}  
 
 
 
 
 
+.layers-container .grid-container.magenta .grid-item{
+     background-color: magenta;
+}     
 
-       
+.layers-container:hover .grid-container.magenta{
+     transform: translateX(5px);
+
+}     
+
+.layers-container .grid-container.magenta .grid-item.space{
+     background-color: transparent;
+}  
+
+
+
+
+.layers-container .grid-container.yellow .grid-item{
+     background-color: yellow;
+}     
+
+.layers-container:hover .grid-container.yellow{
+     transform: translateX(10px);
+
+}     
+
+.layers-container .grid-container.yellow .grid-item.space{
+     background-color: transparent;
+}  
+
+
+
+
+#A {
+    margin: 10px;
+}
+
+#B {
+    margin: 10px;
+}
+
+#C {
+    margin: 10px;
+}
+
+#D {
+    margin: 10px;
+}
+
+#E {
+    margin: 10px;
+}
+
+#F {
+    margin: 10px;
+}
+
+#G {
+    margin: 10px;
+}
+
+#H {
+    margin: 10px;
+}
+
+#I {
+    margin: 10px;
+}
+
+#J {
+    margin: 10px;
+}
+
+#K {
+    margin: 10px;
+}
+
+#L {
+    margin: 10px;
+}
+
+#M {
+    margin: 10px;
+}
+
+#N {
+    margin: 10px;
+}
+
+#O {
+    margin: 10px;
+}
+
+#P {
+    margin: 10px;
+}
+
+#Q {
+    margin: 10px;
+}
+
+#R {
+    margin: 10px;
+}
+
+#S {
+    margin: 10px;
+}
+
+
+#T {
+    margin: 10px;
+}
+
+#U {
+    margin: 10px;
+}
+
+#V {
+    margin: 10px;
+}
+
+#W {
+    margin: 10px;
+}
+
+#X {
+    margin: 10px;
+}
+
+#Y {
+    margin: 10px;
+}
+
+#Z {
+    margin: 10px;
+}
+
